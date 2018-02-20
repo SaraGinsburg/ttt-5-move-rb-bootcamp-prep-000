@@ -16,6 +16,3 @@ end
 def move(board, position = 0, chr = "X")
   board[position] = chr
 end
-
-def get_variable_from_file(dir, fileName)
-end
