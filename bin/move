@@ -8,5 +8,5 @@ puts "Where would you like to go?"
 pos = gets
 
 idx = input_to_index(pos)
-move[idx]
+move(idx)
 puts "Welcome to Tic Tac Toe!"
