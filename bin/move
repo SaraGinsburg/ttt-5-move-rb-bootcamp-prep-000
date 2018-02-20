@@ -9,4 +9,4 @@ puts "Where would you like to go?"
 pos = gets
 
 idx = input_to_index(pos)
-move(idx)
+move(board, idx)
