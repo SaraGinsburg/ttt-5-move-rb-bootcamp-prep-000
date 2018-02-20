@@ -13,6 +13,6 @@ def input_to_index(user_input)
 
 end
 
-def move(board, position = 0, chr = "X")
+def move(board, position, chr = "X")
   board[position] = chr
 end
