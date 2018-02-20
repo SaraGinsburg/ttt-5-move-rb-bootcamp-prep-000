@@ -10,3 +10,4 @@ pos = gets
 
 idx = input_to_index(pos)
 move(board, idx)
+display_board(board)
